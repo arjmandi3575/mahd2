@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "iranyekan" ;
+    src: url("fonts/iranyekan/eot/iranyekanwebregular.eot?#") ,
+    url("fonts/iranyekan/ttf/iranyekanwebregular.ttf") format('truetype'),
+    url("fonts/iranyekan/woff/iranyekanwebregular.woff") format('woff'),
+    url("fonts/iranyekan/svg/iranyekanwebregular.svg") format('svg');
+}
+@font-face {
+    font-family: "iranyekan_numbers" ;
+    src: url("fonts/iranyekan_numbers/eot/iranyekanwebregular(fanum).eot?#") ,
+    url("fonts/iranyekan_numbers/ttf/iranyekanwebregular(fanum).ttf") format('truetype'),
+    url("fonts/iranyekan_numbers/woff/iranyekanwebregular(fanum).woff") format('woff'),
+    url("fonts/iranyekan_numbers/svg/iranyekanwebregular(fanum).svg") format('svg');
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+ .all{
+    /* margin: 5rem; */
+border-radius: 2rem;
+    background-image: url(processed-88160208-b841-4e22-84cb-0aad037f3a6a_C5leduFl.jpeg);
+    background-repeat: no-repeat;
+  height: 600px;
+}
+ header span{
+    font-size: 46px;
+    margin-top: 3rem;
+    margin-left: -2rem;
+    font-weight: bold;
+ color: red;
+}
+header{
+    font-family: 'iranyekan_numbers','iranyekan';
+    font-size: 20px;
+    color: black;
+    margin-top: 0rem;
+    margin-left: 15rem;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: -49rem;
+    margin-bottom: -6rem;
+
+}
+.first-line{
+    color: black;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 26px;
+text-align: center;
+font-style: italic;
+padding-right: 2rem;
+}
+.second-line{
+    border-left-style: double;
+border-left-color: lightcoral;
+border-left-width: 6px;
+    font-family: 'iranyekan_numbers','iranyekan';
+color: black;
+font-size: 15px;
+text-align: center; 
+font-style: italic;
+padding-left: 2rem;
+
+}
+.number{
+    font-style: initial;
+
+    font-size: 18px;
+    font-weight: bolder;
+    color: red;
+}
+footer{
+    margin-top: 7rem;
+}
+.phone{
+    font-style: italic;
+    margin-top: 6rem;
+    font-weight: bold;
+    margin-left: 9rem;  
+    border-bottom: solid red;
+}
+    
+.adress{
+    border-bottom: solid red;
+    font-weight: bold;
+margin-top:-13.5rem;
+margin-left: 10rem;
+width: 290px;
+}
+
+
+
+
